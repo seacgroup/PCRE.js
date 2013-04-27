@@ -13,7 +13,7 @@ Named captures are simply maintained by keeping the named index that is then use
 
 Classes are supported by replacing themselves internally with whatever they represent.  IE ::alpha:: [a-zA-Z]
 
-For those of you who don't know what PCRE is, it is basically Perl Cow Regular Expressions, where Cow is some word I have forgotten.
+For those of you who don't know what PCRE is, it is basically Perl Compatible Regular Expressions.
 
 In the weeks to come I will add the source and API documentation with examples.
 
