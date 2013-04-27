@@ -11,7 +11,7 @@ It works by parsing RegExp or RE Strings into Native supported RegExp pieces tha
 
 Named captures are simply maintained by keeping the named index that is then used to return the capture.  DEFINEs and recursion are supported by recalling the RE within the recursion piece.
 
-Classes are supported by replacing themselves internally with whatever they represent.  IE ::alpha:: [a-zA-Z]
+Classes are supported by replacing themselves internally with whatever they represent.  IE [[:alpha:]] becomes [a-zA-Z]
 
 For those of you who don't know what PCRE is, it is basically Perl Compatible Regular Expressions, you can read more about this standard at http://www.pcre.org/ and http://en.wikipedia.org/wiki/Perl_Compatible_Regular_Expressions.
 
